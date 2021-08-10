@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cont {
+    display: flex;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+}
+
+.name {
+    font-size: 25px;
+}
+
+.name-user {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.post {
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-item {
+    font-size: 25px;
+}
+
+
+
+.container-div {
+    display: flex;
+    background-color: skyblue;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    background-color: green;
+
+
+}
+
+.form-heading {
+    font-family: "Roboto";
+    font-size: 36px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.button {
+    color: white;
+    background-color: blue;
+    width: 60px;
+    border: 0px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.error-message {
+    color: #dc3545;
+    font-family: "Roboto";
+    font-size: 14px;
+}
